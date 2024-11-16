@@ -1,4 +1,4 @@
-//package BUBBLESORTIN;
+package bubbles;
 
 import java.util.*;
 public class bubblesorting {
