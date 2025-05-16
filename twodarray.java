@@ -6,7 +6,7 @@ public class twodarray {
         int col=3;
         int [][]a= new int [row][col];
         
-        //input thorugh the loop
+        //input thorugh the loop 
         for (int i=0;i<row;i++){
             for (int j=0;j<col;j++){
                 a[i][j]=sc.nextInt();
@@ -24,7 +24,7 @@ public class twodarray {
         }
         
          
-        // another method to print tghe 2d array
+        // another method to print the 2d array
         for (int i=0;i<row;i++){
             System.out.println(Arrays.toString(a[i]));
         }

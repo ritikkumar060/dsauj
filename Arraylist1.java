@@ -48,8 +48,9 @@ public class Arraylist1{
     System.out.println(list.get(i));// pass the index here, list[index] synatax will not work here
    }
    
-   
-
+   int z=list.get(2);
+   System.out.println(z);
+System.out.println(list);
    sc.close();
 }
 }
