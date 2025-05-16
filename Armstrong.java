@@ -1,6 +1,8 @@
 import java.lang.Math;
 public class Armstrong {
     public static void main (String args[]){
+        //int x=1254;
+	    //System.out.println((int)Math.log10(x)+1);
         int c;
         for (int i=1;i<=10000;i++){
              c=0;
