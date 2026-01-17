@@ -12,6 +12,8 @@ public class stringbuilders {
         System.out.println(sb.toString());
         sb.reverse();
         System.out.println(sb.toString());
+        int n=sb.indexOf("abc");
+        System.out.println(n);
     }
     
 }

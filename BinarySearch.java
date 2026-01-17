@@ -31,7 +31,7 @@ public class BinarySearch {
   while(low<=high){
     int mid=(low+high)/2; // it may exceed the range of integer 
     //int mid=low+(high-low)/2;
-    //above formula is used, bcz low+high may exceed the range of integer. so to solve this error we use formula mid=low+(high-low)/2   
+    //above formula is used, bcz low+high may exceed the range of integer. so to solve this problem we use formula mid=low+(high-low)/2   
     if (arr[mid]==target){
         return mid;
     }

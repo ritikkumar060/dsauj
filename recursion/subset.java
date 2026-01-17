@@ -27,7 +27,7 @@ static ArrayList<String> subseqret(String p,String up){
       ArrayList<String> right=  subseqret(p,up.substring(1));
       left.addAll(right);
       return left;
-}
+} 
 
 
 }

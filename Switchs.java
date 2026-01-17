@@ -30,3 +30,12 @@ public class Switchs {
     }
     
 }
+/* 
+Note:
+- cases have to be the same type as expressions , must be a constant or literal
+-duplicate case values are not allowed 
+-break is use to terminate the sequence 
+-if break is not used , it will continue to next case
+-default will execute when none of the above does 
+-if default is not at the end, put break after it 
+*/
